@@ -40,6 +40,8 @@ while i != 999:
             kit.sort(reverse = False)
             kit.pop(0)
             print("Average Score of two number is :",(kit[0]+kit[1])/2)
+            break
+        print('Search student not found')
     elif num==5:
         print('Bye')
         break
